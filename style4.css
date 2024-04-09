@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.ppt{
+    height: 100px;
+    width: 100%;
+}
+.ppt .ppt1{
+    height: 100px;
+    width: 45%;
+    float: left;
+}
+.ppt .ppt2{
+    height: 100px;
+    width: 10%;
+    background-color: brown;
+    float: left;
+}
+.ppt .ppt3{
+    height: 100px;
+    width: 45%;
+    float: left;
+}
+.sss{
+    height: 100px;
+    width: 100%;
+}
+.sss .sss1{
+    height: 100px;
+    width: 35%;
+    float: left;
+}
+.sss .sss2{
+    height: 100px;
+    width: 10%;
+    background-color: green;
+    float: left;
+}
+.sss .sss3{
+    height: 100px;
+    width: 10%;
+    float: left;
+}
+.sss .sss4{
+    height: 100px;
+    width: 10%;
+    background-color: gray;
+    float: left;
+}
+.sss .sss5{
+    height: 100px;
+    width: 35%;
+    float: left;
+}

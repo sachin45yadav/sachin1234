@@ -1,0 +1,117 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.tpp{
+    height: 100px;
+    width: 100%;
+}
+.tpp .tpp1{
+    height: 100px;
+    width: 45%;
+    float: left;
+}
+.tpp .tpp2{
+    height: 100px;
+    width: 10%; 
+    background-color: brown;
+    float: left;
+}
+.tpp .tpp3{
+    height: 100px;
+    width: 45%;
+    float: left;
+}
+.ppt{
+    height: 100px;
+    width: 100%;
+}
+.ppt .ppt1{
+    height: 100px;
+    width: 35%;
+    float: left;
+}
+.ppt .ppt2{
+    height: 100px;
+    width: 10%; 
+    background-color: green;
+    float: left;
+}
+.ppt .ppt3{
+    height: 100px;
+    width: 10%;
+    float: left;
+}
+.ppt .ppt4{
+    height: 100px;
+    width: 10%;
+    background-color: blue;
+    float: left;
+}
+.ppt .ppt5{
+    height: 100px;
+    width: 35%;
+    float: left;
+}
+.sss{
+    height: 100px;
+    width: 100%;
+}
+.sss .sss1{
+    height: 100px;
+    width: 25%;
+    float: left;
+}
+.sss .sss2{
+    height: 100px;
+    width: 10%;
+    background-color: brown;
+    float: left;
+}
+.sss .sss3{
+    height: 100px;
+    width: 30%;
+    float: left;
+}
+.sss .sss4{
+    height: 100px;
+    width: 10%;
+    background-color: blueviolet;
+    float: left;
+}
+.sss .sss5{
+    height: 100px;
+    width: 25%;
+    float: left;
+}
+.rrr{
+    height: 100px;
+    width: 100%;
+}
+.rrr .rrr1{
+    height: 100px;
+    width: 15%;
+    float: left;
+}
+.rrr .rrr2{
+    height: 100px;
+    width: 10%;
+    background-color: yellow;
+    float: left;
+}
+.rrr .rrr3{
+    height: 100px;
+    width: 50%;
+    float: left;
+}
+.rrr .rrr4{
+    height: 100px;
+    width: 10%;
+    background-color: brown;
+    float: left;
+}
+.rrr .rrr5{
+    height: 100px;
+    width: 15%;
+    float: left;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<style>
+     body{
+        background-color: yellow;
+     }
+     form input[type="name"],[type="email"]{
+            width: 300px;
+            height: 30px;
+     }
+     form input[type="number"]{
+        width: 285px;
+        height: 25px;
+     }
+     form input[type="date"],[type="time"]{
+        width: 200px;
+        height: 20px;
+
+     }
+     form input[type="time"]{
+        width: 285px;
+        height: 20px;
+     }
+     form select{
+        width: 285px;
+        height: 32px;
+     }
+</style>
+<body>
+
+    <h3>Registration form</h3><hr>
+
+    <form>
+        <label>name</label>
+        <input type="name" placeholder="Enter your name" required><br></br>
+         
+        <label>Number</label>
+        <input type="number" name="phone"  placeholder="Enter your number"><br></br>
+
+        <label>Email</label>
+        <input type="email" name="mail" placeholder="Enter your Email"><br></br>
+
+        <label>Gender</label>
+        <input type="radio" name="Gender" value="Male">Male
+        <input type="radio" name="Gender" value="Male">Female
+        <input type="checkbox" name="Gender" value="Male">other<br></br>
+
+        <label>Dob</label>
+         <input type="date" name="date"><br></br>
+
+         <label>Time</label>
+         <input type="time" name="time"><br></br>
+
+         <label>State</label>
+         <select>
+            <option disabled selected value=""></option>
+            <option value="Bihar">Bihar</option>
+            <option value="munger">munger</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Jalandhra">Jalandhar</option>
+         </select><br></br>
+
+         <label>Message</label>
+         <textarea name="" placeholder="Enter your Message" cols="50" rows="10"></textarea>
+
+         <label>Image</label>
+         <input type="file" name="pic"><br></br>
+         <input type="submit" name="submit">
+    </form>
+</body>
+</html>
